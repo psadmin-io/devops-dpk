@@ -1,5 +1,5 @@
 {
-  "name": "Advanced PeopleSoft Administration",
+  "name": "Devops and the DPK",
   "protected": [
     "presenter",
     "onepage",
@@ -12,9 +12,11 @@
     "intro/intro.md",
     "intro/about.md",
     "intro/agenda.md",
-    "dpk/dpk.md",
-    "custom_modules/custom.md",
-    "scripting/scripting.md",
-    "git/git.md"
+    "topic/git.md",
+    "topic/ci.md",
+    "topic/hiera.md",
+    "topic/environments.md",
+    "topic/future.md",
+    "intro/closing.md"
   ]
 }

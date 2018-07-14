@@ -1,16 +1,21 @@
 !SLIDE bullets
 
-# About Us
+# About psadmin.io
 
-psadmin.io is a community of PeopleSoft Administrators
+1. Blog
+1. Podcast
+1. Community
+1. Training
+1. Coaching
 
 !SLIDE bullets
 
 # Dan Iverson
 
 1. PeopleSoft Administrator
+1. Developer, Tech Lead, Project Manager
 1. Oracle ACE
-1. Blog/Podcast/Coach/Consult
+1. 15+ Years with PeopleSoft
 
 !SLIDE bullets
 
@@ -28,4 +33,4 @@ psadmin.io is a community of PeopleSoft Administrators
 1. Early DPK Adopters
 1. 8.55.08 Go-Live
 1. Started with Basic DPK + manual steps
-1. 8.56 Go-live is a full automated build
+1. 8.56 Go-live is a fully automated build
