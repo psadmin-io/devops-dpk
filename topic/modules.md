@@ -42,11 +42,48 @@ Website Configuration
 1. `git clone https://github.com/psadmin-io/psadminio-io_portalwar`
 1. `git submodule add https://github.com/psadmin-io/psadminio-io_portalwar; git submodule init`
 2. `puppet module install psadminio_io_portal` (future)
-3. Enable Data Bindings in `puppet.conf`
-  
-        @@@ini
-        data_binding_terminus=none
 
 !SLIDE bullets
 
-# DPK-specific modules
+# Configuring DPK Modules
+
+    @@@yaml
+    io_weblogic::java_options:
+      "%{hiera('db_name')}":
+        -Xms:                              '512m'
+        -Xmx:                              '512m'
+        -Dweblogic.threadpool.MinPoolSize: '=50'
+        -Dweblogic.security.SSL.protocolVersion:  '=TLSv1.2'
+        -Dtuxedo.jolt.LLEDeprecationWarnLevel:    'NONE'
+
+!SLIDE bullets
+
+# Configuring DPK Modules
+
+    @@@yaml
+    io_portalwar::source: 'puppet:///modules/mpls_deploy'
+    io_portalwar::signon_page:
+      "%{hiera('db_name')}":
+        root:
+          - f5.html
+          - robots.txt
+        portal:
+          - bootstrap.min.css
+          - bootstrap.min.js
+          - jquery-1.11.3.min.js
+        psftdocs:
+          - comet.html
+
+!SLIDE bullets
+
+# Calling DPK Modules
+
+    @@@ruby
+    class mpls_profile::mpls_pia {
+      notify { 'Applying mpls_profile::mpls_pia': }
+
+      require pt_profile::pt_pia
+
+      contain ::io_weblogic
+      contain ::io_portalwar
+    }

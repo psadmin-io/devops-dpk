@@ -33,7 +33,7 @@ With these goals in mind, we end up with some changes to the delivered DPK that 
 1. Hiera Hashing
 1. Puppet Environments
 1. Custom DPK Modules
-1. Future Direction
+1. Future Improvements
 
 !SLIDE bullets
 
