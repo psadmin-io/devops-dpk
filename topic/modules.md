@@ -39,9 +39,14 @@ Website Configuration
 
 # Install Modules
 
-1. git clone https://github.com/psadmin-io/psadminio-io_portalwar 
-2. puppet module install psadminio_io_portal (future)
+1. `git clone https://github.com/psadmin-io/psadminio-io_portalwar`
+1. `git submodule add https://github.com/psadmin-io/psadminio-io_portalwar; git submodule init`
+2. `puppet module install psadminio_io_portal` (future)
 3. Enable Data Bindings in `puppet.conf`
   
         @@@ini
         data_binding_terminus=none
+
+!SLIDE bullets
+
+# DPK-specific modules

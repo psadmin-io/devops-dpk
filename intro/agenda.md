@@ -34,3 +34,19 @@ With these goals in mind, we end up with some changes to the delivered DPK that 
 1. Puppet Environments
 1. Custom DPK Modules
 1. Future Direction
+
+!SLIDE bullets
+
+# DPK Experience
+
+To get the most from this talk, you should have:
+
+* Experience with the DPK beyond PeopleSoft Images
+* Know what the `psft_customizations.yaml` and how to use it
+* Used the DPK on your own environments
+
+This is a talk based on DPK experience and contains advanced topics.
+
+~~~SECTION:notes~~~
+This talk is intended for an experienced admin with DPK background. These are changes we make to the DPK based on our experience to make it a better tool.
+~~~ENDSECTION~~~

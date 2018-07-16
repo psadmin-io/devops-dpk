@@ -18,6 +18,7 @@
     "topic/customfacts.md",
     "topic/hiera.md",
     "topic/environments.md",
+    "topic/modules.md",
     "topic/future.md",
     "intro/closing.md"
   ]
