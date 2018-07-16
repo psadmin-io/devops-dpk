@@ -14,6 +14,8 @@
     "intro/agenda.md",
     "topic/git.md",
     "topic/ci.md",
+    "topic/shared.md",
+    "topic/customfacts.md",
     "topic/hiera.md",
     "topic/environments.md",
     "topic/future.md",

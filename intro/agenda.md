@@ -29,8 +29,8 @@ With these goals in mind, we end up with some changes to the delivered DPK that 
 1. Git and GitLab
 1. Continuous Integration
 1. Shared Directories
-1. Controlling Actions
-1. Eliminate Redundant Data
+1. Custom Facts
+1. Hiera Hashing
 1. Puppet Environments
 1. Custom DPK Modules
 1. Future Direction

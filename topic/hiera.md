@@ -1,6 +1,16 @@
 !SLIDE center subsection blue
 
-# 
+# Hiera Hashing
+
+!SLIDE bullets
+
+# Duplicate Data
+
+The delivered Hiera configuration encourages duplicate data. You redefine:
+
+1. Domain defaults
+1. Locations and folders
+1. 
 
 !SLIDE bullets
 

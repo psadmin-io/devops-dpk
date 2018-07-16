@@ -72,3 +72,25 @@ There are different workflows you can create for CI testing. Often times you wan
       - git pull origin develop
       - git submodule init; git submodule update
       - puppet apply .\manifests\site.pp --environment=fs92dev2 --confdir=e:\psoft\dpk\puppet
+
+!SLIDE center subsection blue
+
+# Demo
+
+~~~SECTION:notes~~~
+Create a new commit and push up to GitLab - Merge the request and validate the test kicks off.
+~~~ENDSECTION~~~
+
+
+!SLIDE bullets
+
+# CI Obstacles
+
+* Process Schedulers
+* Testing with Load Balancers
+
+~~~SECTION:notes~~~
+For the schedulers, looking to create a test-only PSNTX, that has no process categories assigned to it. Esp for Prod test builds, we don't want to be running processes on the test-only scheduler.
+
+For load balancers, we are looking to use nginx or some other proxy tool to mimic our main LB. We don't want to add out test web server into the main LB, so for now we use hosts entries to validate that configuration. That's pretty cumbersome, and it's not something we like doing.
+~~~ENDSECTION~~~
