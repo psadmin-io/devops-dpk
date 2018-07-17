@@ -34,3 +34,7 @@ Website Configuration
 * Index Redirect
 * text.properties
 * Custom Signon
+
+!SLIDE center subsection grey
+
+# Demo
