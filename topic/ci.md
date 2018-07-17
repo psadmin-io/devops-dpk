@@ -73,7 +73,7 @@ There are different workflows you can create for CI testing. Often times you wan
       - git submodule init; git submodule update
       - puppet apply .\manifests\site.pp --environment=fs92dev2 --confdir=e:\psoft\dpk\puppet
 
-!SLIDE center subsection blue
+!SLIDE center subsection grey
 
 # Demo
 

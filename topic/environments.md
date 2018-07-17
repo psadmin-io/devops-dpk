@@ -58,7 +58,7 @@ Supported in 8.55 and 8.56 (easier in 8.56)
 
 1. Call `puppet apply` with `--environment hrdev`
 
-!SLIDE center subsection blue
+!SLIDE center subsection grey
 
 # Demo
 
