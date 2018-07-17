@@ -42,7 +42,7 @@ With these goals in mind, we end up with some changes to the delivered DPK that 
 To get the most from this talk, you should have:
 
 * Experience with the DPK beyond PeopleSoft Images
-* Know what the `psft_customizations.yaml` and how to use it
+* Used the `psft_customizations.yaml` file
 * Used the DPK on your own environments
 
 This is a talk based on DPK experience and contains advanced topics.

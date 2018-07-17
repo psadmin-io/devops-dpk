@@ -58,14 +58,6 @@ Supported in 8.55 and 8.56 (easier in 8.56)
 
 1. Call `puppet apply` with `--environment hrdev`
 
-!SLIDE center subsection grey
-
-# Demo
-
-~~~SECTION:notes~~~
-Use ELMTST to demonstrate how the DPK can be used on one environment without disturbing others.
-~~~ENDSECTION~~~
-
 !SLIDE bullets
 
 # Puppet Environments

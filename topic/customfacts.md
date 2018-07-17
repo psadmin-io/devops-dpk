@@ -27,7 +27,7 @@ To specify a single redeploy
 1. Commit the change
 1. Push the change to the servers
 
-*Data files should not be transactional*
+*Configuration files should not be transactional*
 
 !SLIDE bullets incremental
 

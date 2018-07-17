@@ -27,6 +27,7 @@ is the practice of merging all developer working copies to a shared mainline sev
 * Deploy GitLab Runners
 * Push Git commits to GitLab
 * Create Merge Request
+* CI build executes
 * Verify test build
 * Complete Merge Request
 
@@ -88,6 +89,7 @@ Create a new commit and push up to GitLab - Merge the request and validate the t
 
 * Process Schedulers
 * Testing with Load Balancers
+* Pre-building before Tools Upgrades
 
 ~~~SECTION:notes~~~
 For the schedulers, looking to create a test-only PSNTX, that has no process categories assigned to it. Esp for Prod test builds, we don't want to be running processes on the test-only scheduler.

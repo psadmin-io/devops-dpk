@@ -1,5 +1,14 @@
 !SLIDE bullets
 
+# Dan Iverson
+
+1. PeopleSoft Administrator
+1. Developer, Tech Lead, Project Manager
+1. Oracle ACE
+1. 15+ Years with PeopleSoft
+
+!SLIDE bullets
+
 # About psadmin.io
 
 1. Blog
@@ -10,21 +19,14 @@
 
 !SLIDE bullets
 
-# Dan Iverson
-
-1. PeopleSoft Administrator
-1. Developer, Tech Lead, Project Manager
-1. Oracle ACE
-1. 15+ Years with PeopleSoft
-
-!SLIDE bullets
-
 # City of Minneapolis
 
 1. PeopleTools 8.56.08 (next week!)
 1. PeopleSoft HR, ELM, FS
 1. Windows
 1. Oracle (on OEL)
+
+![.smallright](/_images/cityofmpls.png)
 
 !SLIDE bullets
 
