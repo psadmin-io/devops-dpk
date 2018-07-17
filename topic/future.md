@@ -22,7 +22,6 @@
 
 # CI Improvements
 
-* Travis-CI-style CI runs
 * Start with blank VM or container for builds
 * Look at Docker support for builds
 
