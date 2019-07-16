@@ -3,9 +3,8 @@
 # Dan Iverson
 
 1. PeopleSoft Administrator
-1. Developer, Tech Lead, Project Manager
 1. Oracle ACE
-1. 15+ Years with PeopleSoft
+1. 16+ Years with PeopleSoft
 
 !SLIDE bullets
 
@@ -16,12 +15,13 @@
 1. Community
 1. Training
 1. Coaching
+1. Conference (May 4-6, 2020)
 
 !SLIDE bullets
 
 # City of Minneapolis
 
-1. PeopleTools 8.56.08 (next week!)
+1. PeopleTools 8.56.08
 1. PeopleSoft HR, ELM, FS
 1. Windows
 1. Oracle (on OEL)

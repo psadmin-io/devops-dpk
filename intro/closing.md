@@ -15,18 +15,16 @@
 
 # psadmin.io Sessions
 
-| **Session ID** | **Date & Time** |  |
+| **Session ID** | **Date & Time** | **Session** |
 | -------------- | --------------- | --------- |
-| 100910 | Wed. Jul. 18, 8:00 am | Devops and Deployment Packages |
-| 103030 | Wed. Jul. 18, 9:15 am | Deep Dive on Taking Advantage of the PeopleSoft Deployment Framework |
-| 100980 | Wed. Jul. 18, 11:15 am | Down and Dirty with Automated Config Management |
-| 100270 | Wed. Jul. 18, 4:30 pm | Peek-a-boo...I See P-You: Using DPKs for CPU Patching |
-| 100260 | Thu. Jul. 19, 8:00 am | Advanced PeopleSoft Administration |
-| 103180 | Thu. Jul. 19, 11:15 am |	DPK Guided Lab |
+| 100930 | Tues, July 16, 2:15 pm | Enhancing the Deployment Packages |
+| 100950 | Wed. Jul. 17, 1:30 pm | Terraforming PeopleSoft on OCI |
+| 100810 | Thur. Jul. 18, 11:15 am | Advanced PeopleSoft Administration |
+| 100980 | Thur, Jul. 18, 1:45 pm | Help is on the Way with DPK |
 
 !SLIDE bullets
 
 #  Thank You!
 
 * Questions?
-* Session Evaluation: 100910
+* Session Evaluation: 100930
